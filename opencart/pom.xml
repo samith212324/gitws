@@ -32,26 +32,21 @@
        <plugins>  
          <plugin>
 	         <groupId>org.apache.maven.plugins</groupId>
-		         <artifactId>maven-release-plugin</artifactId>
-			         <version>2.5.3</version>
-				  </plugin>
-				   </plugins>
-				    </build>
-				     
-				      <distributionManagement>
-				          <repository>
-					          <id>central</id>
-						        			      
-							 <name>DESKTOP-F23DK7G-releases</name>
-								           <url>http://localhost:8081/artifactory/ext-release-local</url>
-								      </repository>
-
-								          <snapshotRepository>
-									          <id>central</id> 
-										  <name>DESKTOP-F23DK7G-releases</name>
-										          <url>http://localhost:8081/artifactory/ext-release-local</url>
-										          										          
-												      </snapshotRepository>
-												      	
-													</distributionManagement>
+		      <artifactId>maven-release-plugin</artifactId>
+	           <version>2.5.3</version>
+    </plugin>
+   </plugins>
+   </build>
+   <distributionManagement>
+	  <repository>
+	   <id>central</id>			        			      
+		 <name>DESKTOP-F23DK7G-releases</name>
+		 <url>http://localhost:8081/artifactory/ext-release-local</url>
+			</repository>
+	       <snapshotRepository>
+		       <id>central</id> 
+			   <name>DESKTOP-F23DK7G-snapshots</name>
+        <url>http://localhost:8081/artifactory/ext-snapshot-local</url>			          										          
+	      </snapshotRepository>										      	
+		</distributionManagement>
 </project>
