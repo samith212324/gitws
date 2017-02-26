@@ -1,19 +1,19 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>in.com.gm</groupId>
   <artifactId>gm</artifactId>
-  <version>1.2</version>
+  <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>gm</name>
   <url>http://maven.apache.org</url>
-   <scm>
-	<url>https://github.com/samith212324/gitws.git</url>
-	<connection>scm:git:git://github.com/samith212324/gitws.git</connection>
-	<developerConnection>scm:git:git@github.com:samith212324/gitws.git</developerConnection>
-	<tag>gm</tag>
-   </scm>
+  <scm>
+    <connection>scm:svn:http://localhost/pasha22/</connection>
+    <developerConnection>scm:svn:http://localhost/pasha22/</developerConnection>
+    <url>http://localhost/pasha22/</url>
+  </scm>
   
 
   <properties>
