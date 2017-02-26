@@ -13,6 +13,7 @@
 	<url>https://github.com/samith212324/gitws.git</url>
 	<connection>scm:git:git://github.com/samith212324/gitws.git</connection>
 	<developerConnection>scm:git:git@github.com:samith212324/gitws.git</developerConnection>
+	<tag>gm</tag>
    </scm>
 
   <properties>
