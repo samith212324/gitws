@@ -28,6 +28,12 @@
  </plugin>
  </plugins>
  </build> 
+ <configuration>
+      <!--
+        During release:perform, enable the "release" profile
+       -->
+      <releaseProfiles>release</releaseProfiles>
+    </configuration>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
