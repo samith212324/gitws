@@ -26,7 +26,10 @@
         <version>2.5.3</version>
  </plugin>
  </plugins>
- </build> 
+ </build>
+ <configuration>
+          <tagNameFormat>v@{2.4}</tagNameFormat>
+        </configuration> 
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
