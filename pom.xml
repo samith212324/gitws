@@ -28,7 +28,7 @@
  </plugins>
  </build>
  <configuration>
-          <tagNameFormat>v@{2.4}</tagNameFormat>
+          <gm>v@{2.4}</gm>
         </configuration> 
   <dependencies>
     <dependency>
