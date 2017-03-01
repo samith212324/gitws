@@ -82,7 +82,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-war-plugin</artifactId>
-                    <version>${maven-war-plugin.version}</version>
+                    <version>3.0.0</version>
                     <configuration>
                         <warName>${project.artifactId}</warName>
                         <archive>
@@ -223,6 +223,7 @@
         <!-- == Project Properties == -->
         <encoding>UTF-8</encoding>
         <java-version>1.8</java-version>
+		
     </properties>
 	<distributionManagement>
 	    <repository>
